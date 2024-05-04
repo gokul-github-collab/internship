@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "B.Sc CS",
+    "type": "Offline",
+    "description": "Sri Krishna Arts and Science College offers a Bachelor of Science in Computer Science program in Boston, MA. This program provides a comprehensive understanding of computer science principles and practical skills in programming and software development.",
+    "location": "J block",
+    "salary": "50K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "Sri Krishna Arts and Science College is dedicated to providing quality education in various disciplines. Our computer science program prepares students for careers in the rapidly evolving field of technology.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  },
+  {
+    "id": "2",
+    "title": "MCA",
+    "type": "Offline",
+    "location": "B block",
+    "description": "Embark on a rewarding journey in the field of computer applications with Sri Krishna Arts and Science College's Master of Computer Applications program in Miami, FL. Gain expertise in software development, database management, and more.",
+    "salary": "50K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "Sri Krishna Arts and Science College is committed to nurturing talent and fostering academic excellence. Our MCA program equips students with the skills and knowledge needed to excel in the dynamic IT industry.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  },
+  {
+    "id": "3",
+    "title": "BCA",
+    "type": "Offline",
+    "location": "E block",
+    "description": "Sri Krishna Arts and Science College offers a Bachelor of Computer Applications program in the heart of Brooklyn, NY. Dive into the world of computer science and gain hands-on experience in software development and IT management.",
+    "salary": "50K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "At Sri Krishna Arts and Science College, we strive to empower students with knowledge and skills that prepare them for success in the global marketplace. Our BCA program combines theoretical learning with practical training to produce industry-ready professionals.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  },
+  {
+    "id": "4",
+    "title": "B.Sc Maths",
+    "type": "Combined",
+    "description": "Enroll in Sri Krishna Arts and Science College's Bachelor of Science in Mathematics program in Phoenix, AZ. Explore the beauty of mathematics while developing analytical and problem-solving skills applicable across various industries.",
+    "location": "F Block",
+    "salary": "40K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "Sri Krishna Arts and Science College is dedicated to promoting academic excellence and fostering holistic development. Our B.Sc Mathematics program encourages critical thinking and equips students with versatile skills for diverse career paths.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  },
+  {
+    "id": "5",
+    "title": "B.Sc Maths",
+    "type": "Offline",
+    "description": "Unlock your potential in mathematics with Sri Krishna Arts and Science College's Bachelor of Science in Mathematics program in bustling Atlanta, GA. Delve into mathematical theory and its real-world applications.",
+    "location": "N Block",
+    "salary": "50K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "At Sri Krishna Arts and Science College, we are committed to providing a supportive learning environment where students can thrive academically and personally. Our B.Sc Mathematics program fosters a deep appreciation for the beauty and relevance of mathematics in today's world.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  },
+  {
+    "id": "6",
+    "title": "B.Sc Maths",
+    "type": "Offline",
+    "description": "Embark on a journey of discovery with Sri Krishna Arts and Science College's Bachelor of Science in Mathematics program in Portland, OR. Develop problem-solving skills and analytical thinking while exploring the fascinating world of mathematics.",
+    "location": "J Block",
+    "salary": "50K per semester",
+    "company": {
+      "name": "Sri Krishna Arts and Science College",
+      "description": "Sri Krishna Arts and Science College is dedicated to empowering students with knowledge and skills that prepare them for success in a rapidly changing world. Our B.Sc Mathematics program offers a rigorous curriculum and opportunities for hands-on learning.",
+      "contactEmail": "contact@skasc.edu",
+      "contactPhone": "555-555-5555"
+    }
+  }
+]
