@@ -3,6 +3,7 @@ import api from '../api';
 import CourseItem from '../components/CourseItem.jsx';
 import Hero from "./Hero.jsx";
 import HomeCards from "./HomeCards.jsx";
+import ViewAllCourses from "./VIewAllCourse.jsx";
 
 const CourseList = () => {
   const [courses, setCourses] = useState([]);
@@ -51,7 +52,11 @@ const checkSuperuser = () => {
           </div>
         </div>
       </section>
+
+        <ViewAllCourses />
     </div>
+
+
   );
 };
 

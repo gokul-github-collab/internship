@@ -27,6 +27,10 @@ class Course(models.Model):
     tuition_fee = models.CharField(max_length=20)
     # college = models.ForeignKey(College, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.name
+
+
 class Semester(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='semesters')
     subject1 = models.CharField(max_length=100, blank=True, null=True)
@@ -36,3 +40,15 @@ class Semester(models.Model):
     subject5 = models.CharField(max_length=100, blank=True, null=True)
     subject6 = models.CharField(max_length=100, blank=True, null=True)
     subject7 = models.CharField(max_length=100, blank=True, null=True)
+
+
+
+class Po(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.TextField()
+    course = models.ForeignKey(Course, on_delete=models.CASCADE)
+
+class Pso(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.TextField()
+    course = models.ForeignKey(Course, on_delete=models.CASCADE)

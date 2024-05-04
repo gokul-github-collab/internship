@@ -44,9 +44,6 @@ class CourseDetailView(RetrieveUpdateDestroyAPIView):
         instance = self.get_object()
         serializer = self.get_serializer(instance)
 
-        # Fetch related college details
-
-        # Fetch related semesters details
         semester_serializer = SemesterSerializer(instance.semesters, many=True)
         semester_data = semester_serializer.data
 
@@ -55,6 +52,10 @@ class CourseDetailView(RetrieveUpdateDestroyAPIView):
             'semesters': semester_data
         }
         return Response(data)
+class CourseUpdateView(RetrieveUpdateDestroyAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseSerializer
+    permission_classes = [IsAuthenticated]
 
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()

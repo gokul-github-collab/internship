@@ -10,6 +10,7 @@ import CourseDetail from "./components/CourseDetail.jsx";
 import MainLayout from "./Layout/MainLayout.jsx";
 import Courses from "./components/Courses.jsx";
 import AddCoursePage from "./pages/AddCoursePage.jsx";
+import EditCoursePage from "./pages/EditCoursePage.jsx";
 const Logout = () => {
   localStorage.clear();
   return <Navigate to='/login' />;
@@ -33,7 +34,8 @@ function App() {
         <Route path="/" element={<MainLayout />} >
         <Route path="/" element={<ProtectedRoute> <CourseList /> </ProtectedRoute>} />
         <Route path="/courses/:id" element={<ProtectedRoute> <CourseDetail /> </ProtectedRoute>} />
-            <Route path='/add-course' element={<ProtectedRoute> <AddCoursePage /> </ProtectedRoute>} />
+        <Route path='/add-course' element={<ProtectedRoute> <AddCoursePage /> </ProtectedRoute>} />
+        <Route path='/courses/:id/edit' element={<ProtectedRoute> <EditCoursePage /> </ProtectedRoute>} />
          <Route path="/courses" element={<Courses />} />
         <Route path="*" element={<NotFound />} />
 
